@@ -5,9 +5,13 @@ function EmployeeList({employees, searchTerm}) {
 
     return (
         <ul>
-            {employees.filter(searchTerm).map((employee)=> <Employee {...employee} />)}   
+            {employees.filter((employee) => {
+                const name = employee.name.first + " " + employee.name.last
+                return name.toLowerCase().includes(searchTerm.toLowerCase())
+            }).map((employee)=> <Employee {...employee} />)}   
         </ul>
     )
 }
 
 export default EmployeeList
+
