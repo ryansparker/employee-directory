@@ -8,8 +8,8 @@ Type in an employee name to search and isolate a particular person from the grou
 * React
 
 # Credits
-* Random User API 
-https://randomuser.me/api/
+* [Random User API](https://randomuser.me/api/) 
+
 [Github Repo](https://github.com/ryansparker/employee-directory)
 
 # Screenshots 
