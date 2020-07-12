@@ -3,8 +3,10 @@ import './styles.css';
 
 function Employee(employee) {
  return (
+    <div>
      <li>
          <img src={employee.picture.large} />
+         
          <div className="employeeInfoKey">
             <p>Name: </p>
             <p> DOB: </p>
@@ -17,7 +19,10 @@ function Employee(employee) {
             <p>{employee.location.city}, {employee.location.country}</p>
             <p>{employee.email}</p>
         </div>
+        
      </li>
+     <hr />
+     </div>
  )
 }
 

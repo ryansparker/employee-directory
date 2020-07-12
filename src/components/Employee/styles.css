@@ -1,24 +1,30 @@
 li {
+    margin-top: 0px;
+    padding-top: 0px;
     display: flex;
     flex-direction: row;
     list-style: none;
 }
 
+hr {
+    border: 1px solid #20FC8F;
+
+}
 img {
-    width: 150px;
-    margin-top: 20px;
-    margin-right: 20px;
+    margin-top: 12px;
+    height: 100%;
+
 }
 
 .employeeInfoKey {
-   
-    margin-top: 30px;
+    margin-left: 20px;
+    margin-top: 0px;
     font-weight: bold;
 }
 
 .employeeInfoValue {
-   
-    margin-top: 30px;
+  
+    margin-top: 0px;
     margin-left: 10px;
 }
 
