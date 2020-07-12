@@ -16,8 +16,7 @@ https://randomuser.me/api/
 ![alt text](/public/employee-directory2.jpg)
 
 # Links
-* the URL to the deployed application
-[Deployed Application](https://ryansparker.github.io/employee-directory/)
+* [Deployed Application](https://ryansparker.github.io/employee-directory/)
 
 * the URL to the Github repository
 [https://github.com/ryansparker/employee-directory](https://github.com/ryansparker/employee-directory)
