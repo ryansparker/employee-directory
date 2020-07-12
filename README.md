@@ -12,8 +12,8 @@ Type in an employee name to search and isolate a particular person from the grou
 [https://randomuser.me/api/] (https://randomuser.me/api/)
 
 # Screenshots 
-![alt text](https://github.com/ryansparker/employee-directory/public/images/employee-directory1.jpg)
-![alt text](https://github.com/ryansparker/employee-directory/public/images/employee-directory2.jpg)
+![alt text](https://github.com/ryansparker/employee-directory/public/employee-directory1.jpg)
+![alt text](https://github.com/ryansparker/employee-directory/public/employee-directory2.jpg)
 
 # Links
 * the URL to the deployed application
