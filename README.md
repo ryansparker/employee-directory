@@ -18,5 +18,4 @@ https://randomuser.me/api/
 # Links
 * [Deployed Application](https://ryansparker.github.io/employee-directory/)
 
-* the URL to the Github repository
-[https://github.com/ryansparker/employee-directory](https://github.com/ryansparker/employee-directory)
+* [Github Repo](https://github.com/ryansparker/employee-directory)
