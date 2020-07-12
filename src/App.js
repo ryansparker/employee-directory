@@ -2,9 +2,6 @@ import React, { useState, useEffect } from 'react';
 import EmployeeList from "./components/EmployeeList"
 import './styles.css';
 
-
-
-
 function App() {
   
   const [employeeList, setEmployeeList] = useState([]);
@@ -24,10 +21,10 @@ function App() {
     <div className="container">
       <header>
         <h1>Employee Directory</h1>
-        <form>
+        <div className="searchBar">
         <label for="searchName">Search:</label>
         <input onChange={handleSearch} type="text" id="searchName" name="searchName" placeholder="Enter Name"/>
-      </form>
+      </div>
       </header>
      
       <EmployeeList employees={employeeList} searchTerm={searchTerm}/>
