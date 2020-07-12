@@ -10,6 +10,7 @@ Type in an employee name to search and isolate a particular person from the grou
 # Credits
 * Random User API 
 https://randomuser.me/api/
+[Github Repo](https://github.com/ryansparker/employee-directory)
 
 # Screenshots 
 ![alt text](/public/employee-directory1.jpg)
