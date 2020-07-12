@@ -1,5 +1,6 @@
 import React from 'react';
 import Employee from '../Employee';
+import './styles.css';
 
 function EmployeeList({employees, searchTerm}) {
 

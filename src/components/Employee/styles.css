@@ -1,0 +1,28 @@
+li {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+img {
+    width: 150px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.employeeInfoKey {
+   
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.employeeInfoValue {
+   
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+input {
+    padding:10px;
+    border:0;
+  }

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import EmployeeList from "./components/EmployeeList"
-import './App.css';
+import './styles.css';
 
 
 
@@ -21,14 +21,15 @@ function App() {
   }
 
   return (
-    <div>
+    <div className="container">
       <header>
-        Employee Directory
-      </header>
-      <form>
+        <h1>Employee Directory</h1>
+        <form>
         <label for="searchName">Search:</label>
         <input onChange={handleSearch} type="text" id="searchName" name="searchName" placeholder="Enter Name"/>
       </form>
+      </header>
+     
       <EmployeeList employees={employeeList} searchTerm={searchTerm}/>
     </div>
   );
@@ -38,7 +39,3 @@ function App() {
 export default App;
 
   
-// componentDidMount() {
-//  
-
-// }
