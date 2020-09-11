@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="container">
       <header>
-        <h1>Employee Directory</h1>
+      <h1>Employee Directory</h1>
         <div className="searchBar">
         <label for="searchName">Search:</label>
         <input onChange={handleSearch} type="text" id="searchName" name="searchName" placeholder="Enter Name"/>
@@ -31,6 +31,7 @@ function App() {
     </div>
   );
 }
+
 
 
 export default App;

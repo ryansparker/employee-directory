@@ -3,12 +3,12 @@ import './styles.css';
 
 function Employee(employee) {
  return (
-    <div>
+    <div className="employee">
      <li>
          <img src={employee.picture.large} />
          
          <div className="employeeInfoKey">
-            <p>Name: </p>
+            <p> Name: </p>
             <p> DOB: </p>
             <p> Location: </p>
             <p> Email: </p>
@@ -21,7 +21,7 @@ function Employee(employee) {
         </div>
         
      </li>
-     <hr />
+     
      </div>
  )
 }
