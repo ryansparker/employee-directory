@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import EmployeeList from "./components/EmployeeList"
 import './styles.css';
+import Icon from './address-card.svg'
+
 
 function App() {
   
@@ -20,7 +22,8 @@ function App() {
   return (
     <div className="container">
       <header>
-      <h1>Employee Directory</h1>
+     
+      <div className="title"><img src={Icon} alt="Icon" className="icon"/><h1>Employee Directory</h1></div>
         <div className="searchBar">
         <label for="searchName">Search:</label>
         <input onChange={handleSearch} type="text" id="searchName" name="searchName" placeholder="Enter Name"/>
