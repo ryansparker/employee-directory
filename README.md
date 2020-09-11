@@ -13,7 +13,6 @@ Type in an employee name to search and isolate a particular person from the grou
 
 # Screenshots 
 ![alt text](/public/employee-directory1.jpg)
-![alt text](/public/employee-directory2.jpg)
 
 # Links
 * [Deployed Application](https://ryansparker.github.io/employee-directory/)
